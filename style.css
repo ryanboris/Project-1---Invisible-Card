@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/diagonal-squares.png) repeat center;
+}
+
+.card-wrapper {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/diagonal-squares.png) repeat center;
+  border-radius: 15px;
+  transition: box-shadow 1s;
+}
+
+.card-wrapper:hover {
+  box-shadow: 0 0 40px #fff;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(17deg, rgba(255, 0, 234, 0.2) 50%, rgb(0, 0, 0) 44%);
+  border-radius: inherit;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 70px 0;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 5px -10px 70px rgba(255, 255, 255, 0.5);
+}
+
+.card-heading,
+.card-paragraph {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+h1.card-heading {
+  font-size: 3.9rem;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+i {
+  color: #fff;
+}
