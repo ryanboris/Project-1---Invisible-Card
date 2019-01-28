@@ -25,7 +25,7 @@
 }
 
 .card-wrapper:hover {
-  box-shadow: 0 0 80px #8f1a87;
+  box-shadow: 0 0 80px #fff;
 }
 
 .card {
@@ -37,6 +37,7 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .card-img {
@@ -53,16 +54,23 @@
 .card-paragraph {
   color: #fff;
   text-align: center;
+  position: absolute;
+  font-family: 'Source Code Pro', monospace;
 }
 
 h1.card-heading {
-  font-size: 4rem;
-  font-family: Monaco;
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  top: 55%;
 }
 
 p.card-paragraph {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   margin-bottom: 30px;
+  top: 72%;
 }
 
 ul {
@@ -76,15 +84,15 @@ ul {
 
 i {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .fa-quote-right {
   margin-left: 15px;
-  font-size: 1rem;
+  font-size: 1.7rem;
 }
 
 .fa-quote-left {
   margin-right: 15px;
-  font-size: 1rem;
+  font-size: 1.7rem;
 }
